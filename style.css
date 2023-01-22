@@ -5,14 +5,14 @@
     padding: 0;
 }
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.815),rgba(0, 0, 0, 0.822)) ,url(background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.485),rgba(0, 0, 0, 0.92)) ,url(background.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
 }
 .soon
 {
-    top: 50%;
+    top: 45%;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -22,7 +22,7 @@ header{
 }
 h1{
     font-size: 65px;
-    text-shadow: 2px 2px 4px #c5b100;
+    text-shadow: 3px 2px 6px black;
     letter-spacing: 15px;
 }
 hr{
@@ -31,13 +31,16 @@ hr{
     border: 1.5px solid #fff;
 }
 p{    
-    text-shadow: 2px 2px 4px #001aff;
-    font-size: 20px;
+    text-shadow: 2px 2px 4px cyan;
+    font-size: 17px;
     margin-bottom: 30px;
+}
+#desc{    
+    text-shadow: 2px 2px 4px blue;
 }
 #launch
 {
-    text-shadow: 2px 2px 4px #ff0000;
+    text-shadow: 2px 2px 4px #9a0000;
     font-size: 40px;
     word-spacing: 20px;
 }
